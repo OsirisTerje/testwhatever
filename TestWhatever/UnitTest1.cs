@@ -23,7 +23,7 @@ namespace TestWhatever
         [Test]
         public void Test3()
         {
-            Assert.That(2-2,Is.EqualTo(4));
+            Assert.That(2+2,Is.EqualTo(4));
         }
     }
 }
