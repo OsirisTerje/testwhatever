@@ -19,5 +19,11 @@ namespace TestWhatever
         {
             Assert.Pass();
         }
+
+        [Test]
+        public void Test3()
+        {
+            Assert.That(2+2,Is.EqualTo(4));
+        }
     }
 }
